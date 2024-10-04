@@ -42,6 +42,17 @@
                     </div>
                 </div>
             </NuxtLink>
+
+            <NuxtLink to="/profile5" class="card-link">
+                <div class="card">
+                    <img src="/public/images/profileIcon_men3.jpg" alt="Profile Picture. 5" class="card__imgframe">
+                    <div class="card__textbox">
+                        <div class="card__titletext">飯野 義之（アドバイザー）</div>
+                        <div class="card__overviewtext">概要がはいります。概要がはいります。概要がはいります。概要がはいります。</div>
+                    </div>
+                </div>
+            </NuxtLink>
+
         </div>
     </div>
 </template>
@@ -50,7 +61,7 @@
 /* ABOUTボタンを押下された時に遷移するページがヘッダーに隠れるのを防ぐ */
 #introduce {
     padding-top: 140px;
-    margin-top: -140px;
+    margin-top: -50px;
 }
 .card-wrap {
     width: 65%;
@@ -63,10 +74,11 @@
 
 /* カードのグループを等間隔に並べる */
 .card-group {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px; /* カード同士の間隔 */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 48%);
 }
 
 /* カード自体のサイズ設定 */
