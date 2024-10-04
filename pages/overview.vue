@@ -33,11 +33,9 @@
             <dd>東京都中野区</dd>
 
             <dt>メールアドレス</dt>
-            <dd>xxxxyyyy@gmail.com</dd>
+            <dd>準備中</dd>
         </dl>
-
     </div>
-    
 </template>
 
 <style scoped>
